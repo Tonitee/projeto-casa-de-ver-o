@@ -5,6 +5,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import PlaceToVisit from './components/PlaceToVisit';
 
+const port = process.env.PORT || 5000
+
 const useStyles = makeStyles((theme) => ({
   root: {
     minHeight: '100vh',
